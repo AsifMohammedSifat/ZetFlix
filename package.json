@@ -1,0 +1,26 @@
+{
+  "name": "ZetFlix",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "push": "git push -u lws main && git push -u vercel main"
+  },
+  "dependencies": {
+    "mongoose": "^8.9.2",
+    "next": "14.2.18",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-toastify": "^11.0.2",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
